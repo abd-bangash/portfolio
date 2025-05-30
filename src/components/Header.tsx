@@ -127,6 +127,7 @@ const Header: React.FC = () => {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       {isMenuOpen && (
         <motion.div
           className="fixed inset-0 bg-white/95 dark:bg-navy/95 backdrop-blur-sm z-50 flex flex-col p-8"
