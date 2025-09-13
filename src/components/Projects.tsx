@@ -25,6 +25,17 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = [
     {
+      id:8,
+      title:"FullStack Chat App",
+      description:"Full stack chat app send and eceive text and images with realtime messaging",
+      image: "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      link:"https://chatapp-6eob.onrender.com/",
+      technologies:["React", "Express", "Node", "Mongo Db", "Socket.io", "Cloudinary"],
+      githubLink:"https://github.com/abd-bangash/ChatApp",
+      featured:true,
+      category:"web"
+    },
+    {
       id: 1,
       title: "Know Your Games",
       description: "A game exploration website to discover and learn about your favorite games.",
